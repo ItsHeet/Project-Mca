@@ -1,0 +1,77 @@
+/* PrivacyPolicy.css */
+
+/* Wrapper styling to center and pad content */
+.policy-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Main title styling */
+.policy-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #FF9300; /* Accent color for title */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Section title styling */
+.policy .section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #31353A;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* General paragraph text styling */
+.policy-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif; /* Matching previous font style */
+}
+
+/* h5 styling to match previous font style, unbold */
+.policy-text h5 {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1rem;
+  font-weight: normal; /* Unbolded */
+  font-family: 'Poppins', sans-serif; /* Matching previous font style */
+}
+
+/* Link styling */
+.policy a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.policy a:hover {
+  text-decoration: underline;
+}
+
+/* Smaller screens adjustments */
+@media (max-width: 768px) {
+  .policy-wrapper {
+      padding: 20px;
+  }
+  
+  .policy-title {
+      font-size: 1.8rem;
+  }
+
+  .policy .section-title {
+      font-size: 1.5rem;
+  }
+
+  .policy-text p,
+  .policy-text h5 {
+      font-size: 0.9rem;
+  }
+}
